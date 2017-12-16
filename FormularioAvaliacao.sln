@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.16
+VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{9D408513-5D18-4C93-9500-C3BB7E69C8BF}"
 EndProject
@@ -13,9 +13,28 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastructure", "4 - Infrastructure", "{7F98A84B-3E62-4B2C-A45E-20AF88ED7D25}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Entities", "Entities", "{B32EC04F-FBDF-4000-B52F-E92F213D7009}"
+	ProjectSection(SolutionItems) = preProject
+		3 - Domain\Entities\Administrador.cs = 3 - Domain\Entities\Administrador.cs
+		3 - Domain\Entities\Aluno.cs = 3 - Domain\Entities\Aluno.cs
+		3 - Domain\Entities\Bloco.cs = 3 - Domain\Entities\Bloco.cs
+		3 - Domain\Entities\Curso.cs = 3 - Domain\Entities\Curso.cs
+		3 - Domain\Entities\Login.cs = 3 - Domain\Entities\Login.cs
+		3 - Domain\Entities\Modulo.cs = 3 - Domain\Entities\Modulo.cs
+		3 - Domain\Entities\Pessoa.cs = 3 - Domain\Entities\Pessoa.cs
+		3 - Domain\Entities\Professor.cs = 3 - Domain\Entities\Professor.cs
+		3 - Domain\Entities\Questao.cs = 3 - Domain\Entities\Questao.cs
+		3 - Domain\Entities\Questionario.cs = 3 - Domain\Entities\Questionario.cs
+		3 - Domain\Entities\Resposta.cs = 3 - Domain\Entities\Resposta.cs
+		3 - Domain\Entities\Turma.cs = 3 - Domain\Entities\Turma.cs
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B32EC04F-FBDF-4000-B52F-E92F213D7009} = {BAE98542-9FCC-417F-842D-67AA838F0C20}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AD6F4200-0B83-4134-983E-50ED2853241D}
